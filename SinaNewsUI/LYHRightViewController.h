@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface LYHRightViewController : UIViewController
-
+//可以旋转的UIImage
+@property (nonatomic,retain) UIImageView *headImageView;
 @end
