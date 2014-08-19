@@ -31,7 +31,6 @@
     arrayData = @[@"新闻",@"订阅",@"图片",@"视频",@"跟帖",@"电台"];
     self.view.backgroundColor = [UIColor clearColor];
     UIImageView * imageBg = [[UIImageView alloc]initWithFrame:self.view.bounds];
-    
     imageBg.image = [UIImage imageNamed:@"sidebar_bg.jpg"];
     [self.view addSubview:imageBg];
     
