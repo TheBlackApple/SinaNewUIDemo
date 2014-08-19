@@ -44,11 +44,10 @@
         label.font = [UIFont systemFontOfSize:20];
         label.textColor = [UIColor whiteColor];
         label.backgroundColor = [UIColor clearColor];
-        label.textColor = obj;
+        label.text = obj;
         [listView addSubview:label];
         [self.view addSubview:listView];
         y+=h;
-        
     }];
 }
 
